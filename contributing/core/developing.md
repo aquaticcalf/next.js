@@ -7,7 +7,7 @@
 ## Dependencies
 
 - [x] Install Rust and Cargo via [rustup](https://rustup.rs).
-- [ ] Install the [GitHub CLI](https://github.com/cli/cli#installation).
+- [x] Install the [GitHub CLI](https://github.com/cli/cli#installation).
 - [ ] Enable pnpm:
   ```
   corepack enable pnpm
