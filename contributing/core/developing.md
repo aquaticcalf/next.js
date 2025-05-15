@@ -1,25 +1,25 @@
 # Developing
 
 - The development branch is `canary`.
-- All pull requests should be opened against `canary`.
+- All pull requests should be opened against `canary`. <- note, i need to remember this
 - The changes on the `canary` branch are published to the `@canary` tag on npm regularly.
 
 ## Dependencies
 
-- Install Rust and Cargo via [rustup](https://rustup.rs).
-- Install the [GitHub CLI](https://github.com/cli/cli#installation).
-- Enable pnpm:
+- [ ] Install Rust and Cargo via [rustup](https://rustup.rs).
+- [ ] Install the [GitHub CLI](https://github.com/cli/cli#installation).
+- [ ] Enable pnpm:
   ```
   corepack enable pnpm
   ```
-- (Linux) Install LLD (the LLVM linker) and Clang (used by `rust-rocksdb`):
+- [ ] (Linux) Install LLD (the LLVM linker) and Clang (used by `rust-rocksdb`):
   ```
   sudo apt install lld clang
   ```
 
 ## Local Development
 
-1. Clone the Next.js repository (download only recent commits for faster clone):
+1. Clone the Next.js repository (download only recent commits for faster clone): <- only download recent commits? interesting, i never knew how to do this
    ```
    gh repo clone vercel/next.js -- --filter=blob:none --branch canary --single-branch
    ```
