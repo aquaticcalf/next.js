@@ -19,13 +19,9 @@
 
 ## Local Development
 
-1. Clone the Next.js repository (download only recent commits for faster clone): <- only download recent commits? interesting, i never knew how to do this
+- [x] Clone the Next.js repository (download only recent commits for faster clone): <- only download recent commits? interesting, i never knew how to do this
    ```
-   gh repo clone vercel/next.js -- --filter=blob:none --branch canary --single-branch
-   ```
-1. Create a new branch:
-   ```
-   git checkout -b MY_BRANCH_NAME origin/canary
+   gh repo clone aquaticcalf/next.js -- --filter=blob:none --branch study --single-branch
    ```
 1. Install the dependencies with:
    ```
@@ -43,11 +39,7 @@
    git add .
    git commit -m "DESCRIBE_YOUR_CHANGES_HERE"
    ```
-1. To open a pull request you can use the GitHub CLI which automatically forks and sets up a remote branch. Follow the prompts when running:
-   ```
-   gh pr create
-   ```
-
+   
 For instructions on how to build a project with your local version of the CLI,
 see **[Developing Using Your Local Version of Next.js](./developing-using-local-app.md)** as linking the package is not sufficient to develop locally.
 
