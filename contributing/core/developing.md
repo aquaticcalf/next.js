@@ -8,9 +8,9 @@
 
 - [x] Install Rust and Cargo via [rustup](https://rustup.rs).
 - [x] Install the [GitHub CLI](https://github.com/cli/cli#installation).
-- [ ] Enable pnpm:
+- [x] Enable pnpm:
   ```
-  corepack enable pnpm
+  sudo corepack enable pnpm
   ```
 - [ ] (Linux) Install LLD (the LLVM linker) and Clang (used by `rust-rocksdb`):
   ```
