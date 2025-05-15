@@ -23,7 +23,7 @@
    ```
    gh repo clone aquaticcalf/next.js -- --filter=blob:none --branch study --single-branch
    ```
-1. Install the dependencies with:
+- [x] Install the dependencies with:
    ```
    pnpm install
    ```
