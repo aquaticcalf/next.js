@@ -6,7 +6,7 @@
 
 ## Dependencies
 
-- [ ] Install Rust and Cargo via [rustup](https://rustup.rs).
+- [x] Install Rust and Cargo via [rustup](https://rustup.rs).
 - [ ] Install the [GitHub CLI](https://github.com/cli/cli#installation).
 - [ ] Enable pnpm:
   ```
